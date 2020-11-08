@@ -5,13 +5,7 @@
 
 {% block body %}
 
-    {% block navbar %}
-        <div class="navbar navbar-inverse" role="navigation">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="/" style="font-weight: bold;">NoHandBlogger</a>
-                </div>
-        </div>
-    {% endblock %}
+    {% include 'navigationBar.html' %}%}
     <div class="wrap">
         {% block content %}{% endblock %}
     </div>

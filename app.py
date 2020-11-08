@@ -17,10 +17,9 @@ Bootstrap(app)
 def root():
      return render_template("childExample.html")
 
-
 if __name__ == '__main__':
      
-     url = 'http://localhost:5000'
+     url = 'http://localhost'
      webbrowser.open(url)
      
      app.run(host='0.0.0.0', port=80)
